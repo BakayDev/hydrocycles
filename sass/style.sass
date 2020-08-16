@@ -1,0 +1,202 @@
+html 
+  box-sizing: border-box
+
+
+*, *::before, *::after
+  box-sizing: inherit
+
+
+a 
+  text-decoration: none
+  color: inherit
+
+
+ul, li
+  margin: 
+  padding: 0
+  list-style: none
+
+
+h1, h2, h3, h4, h5, h6 
+  margin: 0
+
+
+body 
+  color: #2f3035
+  font-family: serif
+
+
+.container 
+  max-width: 1200px
+  padding: 0 15px
+  margin: 0 auto
+
+
+.header__top-inner 
+  display: fle
+  justify-content: space-between
+  align-items: center
+  min-height: 122px
+
+
+.menu__item 
+  display: inline-block
+
+.menu__item + .menu__item 
+  padding-left: 50px
+
+
+.header__box 
+  display: flex
+
+
+.header__adress 
+  margin-right: 86px
+  width: 265px
+  padding-left: 30px
+  position: relative
+
+.header__adress::before 
+  content: ''
+  position: absolute
+  background-image: url("/images/location.svg")
+  width: 30px
+  height: 30px
+  left: 0
+  top: -10px
+
+.header__bottom 
+  margin-bottom: 78px
+
+.user-list__item 
+  padding-right: 10px
+
+
+.user-list 
+  margin-right: 15px
+  display: flex
+  align-items: center
+
+
+.basket 
+  position: relative
+
+
+.basket__num 
+  position: absolute
+  font-family: 'SFProDisplay-Medium' sans-serif
+  font-weight: 500
+  color: #ffffff
+  font-size: 10px
+  line-height: 20px
+  width: 20px
+  height: 20px
+  background-color: #1c62cd
+  border-radius: 50%
+  text-align: center
+  bottom: -15px
+  right: -14px
+
+
+.menu-categories 
+  background-color: #f0f0f4
+  display: flex
+  justify-content: space-around
+  align-items: center
+  min-height: 53px
+
+
+.menu-categories__item 
+  position: relative
+
+
+
+.menu-categories__link 
+  transition: all .3s
+  font-weight: 400
+  padding: 15px 0 14px
+  position: absolute
+  top: 50%
+  transform: translate(-50%, -50%) 
+
+
+.menu-categories__link::before 
+  content: ""
+  position: absolute
+  width: 0
+  left: auto
+  right: 0
+  background-color: #1c62cd
+  height: 3px
+  bottom: -2px
+  transition: all .3s
+
+
+.menu-categories__link:hover 
+  color: #000
+
+
+.menu-categories__link:hover::before 
+  width: 100%
+  right: auto
+  left: 0
+
+
+.banner-section__inner 
+  display: flex
+  justify-content: space-around
+
+
+.banner-section__slider 
+  max-width: 870px
+
+.banner-section__slider-btn 
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+  background-color: transparent
+  border: none
+  margin: 0
+  padding: 0
+  z-index: 5
+  cursor: pointer
+
+
+.banner-section__slider-btnprev 
+  left: 20px
+
+
+.banner-section__slider-btnnext 
+  right: 20px
+
+
+
+
+
+
+ .slick-dots li 
+  display: inline-block
+  padding: 0 5px
+
+
+ .slick-dots button 
+  padding: 0
+  font-size: 
+  margin: 0
+  width: 11px
+  height: 11px
+  border-radius: 50%
+  border: 1px solid #fff
+    background-color: transparent
+
+
+ .slick-active button 
+max-width: 265px
+text-align: center
+background-color: #fff
+   
+
+.sale-item 
+  max-width: 265px
+  
+
